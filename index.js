@@ -25,42 +25,39 @@ Client.on("guildeMemberRemove", member => {
     member.guild.channel.cache.find(channel => channel.id === "799211907407675444").send(member.displayName + " Good luck man and may the force be with you");
 });
 
-Client.on("message", message => {
+Client.on("message", (message, member) => {
     if(message.author.bot) return;
     if(message.channel.type == "dm") return;
 
-    Client.on("guildMemberAdd", member => {
-        //roles attribution TD
-        if(message.content == prefix + "TDA"){
-            member.roles.add("799246213962006528").then(mbr => {console.log("role TDA attribués")}).catch(()=>{console.log("role non attribué")});
-        }
-        if(message.content == prefix + "TDB"){
-            member.roles.add("799246374545391616").then(mbr => {console.log("role TDB attribués")}).catch(()=>{console.log("role non attribué")});
-        }
-        if(message.content == prefix + "TDC"){
-            member.roles.add("799246554845151232").then(mbr => {console.log("role TDC attribués")}).catch(()=>{console.log("role non attribué")});
-        }
-        //role attribution TP
-        if(message.content == prefix + "TP1"){
-            member.roles.add("799247486711365673").then(mbr => {console.log("role TP1 attribués")}).catch(()=>{console.log("role non attribué")});
-        }
-        if(message.content == prefix + "TP2"){
-            member.roles.add("799247955517112350").then(mbr => {console.log("role TP2 attribués")}).catch(()=>{console.log("role non attribué")});
-        }
-        if(message.content == prefix + "TP3"){
-            member.roles.add("799248166343540736").then(mbr => {console.log("role TP3 attribués")}).catch(()=>{console.log("role non attribué")});
-        }
-        if(message.content == prefix + "TP4"){
-            member.roles.add("799248193665630208").then(mbr => {console.log("role TP4 attribués")}).catch(()=>{console.log("role non attribué")});
-        }
-        if(message.content == prefix + "TP5"){
-            member.roles.add("799248529021337641").then(mbr => {console.log("role TP5 attribués")}).catch(()=>{console.log("role non attribué")});
-        }
-        if(message.content == prefix + "TP6"){
-            member.roles.add("799248530346606642").then(mbr => {console.log("role TP6 attribués")}).catch(()=>{console.log("role non attribué")});
-        }
-    });
-    
+//roles attribution TD
+    if(message.content == prefix + "TDA"){
+        member.roles.add("799246213962006528").then(mbr => {console.log("role TDA attribués")}).catch(()=>{console.log("role non attribué")});
+    }
+    if(message.content == prefix + "TDB"){
+        member.roles.add("799246374545391616").then(mbr => {console.log("role TDB attribués")}).catch(()=>{console.log("role non attribué")});
+    }
+    if(message.content == prefix + "TDC"){
+        member.roles.add("799246554845151232").then(mbr => {console.log("role TDC attribués")}).catch(()=>{console.log("role non attribué")});
+    }
+//role attribution TP
+    if(message.content == prefix + "TP1"){
+        member.roles.add("799247486711365673").then(mbr => {console.log("role TP1 attribués")}).catch(()=>{console.log("role non attribué")});
+    }
+    if(message.content == prefix + "TP2"){
+        member.roles.add("799247955517112350").then(mbr => {console.log("role TP2 attribués")}).catch(()=>{console.log("role non attribué")});
+    }
+    if(message.content == prefix + "TP3"){
+        member.roles.add("799248166343540736").then(mbr => {console.log("role TP3 attribués")}).catch(()=>{console.log("role non attribué")});
+    }
+    if(message.content == prefix + "TP4"){
+        member.roles.add("799248193665630208").then(mbr => {console.log("role TP4 attribués")}).catch(()=>{console.log("role non attribué")});
+    }
+    if(message.content == prefix + "TP5"){
+        member.roles.add("799248529021337641").then(mbr => {console.log("role TP5 attribués")}).catch(()=>{console.log("role non attribué")});
+    }
+    if(message.content == prefix + "TP6"){
+        member.roles.add("799248530346606642").then(mbr => {console.log("role TP6 attribués")}).catch(()=>{console.log("role non attribué")});
+    }
 //renvoie des edt
     if(message.content == prefix + "edt"){
         message.channel.send("Emploi du temps des MMI 1", {files: ["./Images/edt0.png"]});
