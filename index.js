@@ -9,7 +9,7 @@ Client.on("ready",() => {
 
 Client.on("guildMemberAdd", member => {
     console.log("A rejoins serv MMI classe");
-    member.guild.channel.cache.find(channel => channel.id === "723918958918369291").send("Bienvenue " + member.displayName + " sur le serveur de la dernière promo du DUT MMI \n " +
+    member.guild.channel.cache.find(channel => channel.id === "799211907407675444").send("Bienvenue " + member.displayName + " sur le serveur de la dernière promo du DUT MMI \n " +
     "Quelques règles à respecter : \n" +
     "1-Parlez dans les channels dédiés \n" +
     "2-Respectez les autres \n" +
@@ -22,7 +22,7 @@ Client.on("guildMemberAdd", member => {
 
 Client.on("guildeMemberRemove", member => {
     console.log("rip nigga");
-    member.guild.channel.cache.find(channel => channel.id === "723918958918369291").send(member.displayName + " Good luck man and may the force be with you");
+    member.guild.channel.cache.find(channel => channel.id === "799211907407675444").send(member.displayName + " Good luck man and may the force be with you");
 });
 
 Client.on("message", message => {
