@@ -15,8 +15,8 @@ Client.on("guildMemberAdd", member => {
     "2-Respectez les autres \n" +
     "3-En cas de besoin ne pas hésiter à demander \n" +
     "4-Merci de vous identifier sous le model suivant : \n" +
-                         "Julien Cordier \n" +
-    "5-Vous aurez accès aux channels une fois vos rôles attribués, pour cela exécuter les commandes suivantes \nAttribution du TD (/TDA ... /TDC) \nAttribution du TP (/TP1 ... /TP6)");
+                         "Julien Cordier TDA TP2 \n" +
+    "5-Vous aurez accès aux channels une fois vos rôles attribués"/*, pour cela exécuter les commandes suivantes \nAttribution du TD (/TDA ... /TDC) \nAttribution du TP (/TP1 ... /TP6)*/);
     //member.roles.add("identifiant du role").then(mbr => {console.log("role atttribué pour "+ member.diplayName)}).catch(()=> {console.log("role non attribué")});
 });
 
@@ -29,9 +29,9 @@ Client.on("message", message => {
     if(message.author.bot) return;
     if(message.channel.type == "dm") return;
 
-//roles attribution TD
+/*roles attribution TD
     if(message.content == prefix + "TDA"){
-        let role = message.guild.roles.find('name','TDA');
+        let role = message.guild.roles.cache.find(r.name ===args.toString());
         message.member.addRole(role);
     }
     if(message.content == prefix + "TDB"){
@@ -59,7 +59,7 @@ Client.on("message", message => {
     }
     if(message.content == prefix + "TP6"){
         member.roles.add("799248530346606642").then(mbr => {console.log("role TP6 attribués")}).catch(()=>{console.log("role non attribué")});
-    }
+    }*/
 //renvoie des edt
     if(message.content == prefix + "edt"){
         message.channel.send("Emploi du temps des MMI 1", {files: ["./Images/edt0.png"]});
