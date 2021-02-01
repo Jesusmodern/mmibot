@@ -25,16 +25,18 @@ Client.on("guildeMemberRemove", member => {
     member.guild.channel.cache.find(channel => channel.id === "799211907407675444").send(member.displayName + " Good luck man and may the force be with you");
 });
 
-Client.on("message", (message, member) => {
+Client.on("message", message => {
     if(message.author.bot) return;
     if(message.channel.type == "dm") return;
 
 //roles attribution TD
     if(message.content == prefix + "TDA"){
-        member.roles.add("799246213962006528").then(mbr => {console.log("role TDA attribués")}).catch(()=>{console.log("role non attribué")});
+        let role = message.guild.roles.find('name','TDA');
+        message.member.addRole(role);
     }
     if(message.content == prefix + "TDB"){
-        member.roles.add("799246374545391616").then(mbr => {console.log("role TDB attribués")}).catch(()=>{console.log("role non attribué")});
+        let role = message.guild.roles.find('name','TDB');
+        message.member.addRole(role);
     }
     if(message.content == prefix + "TDC"){
         member.roles.add("799246554845151232").then(mbr => {console.log("role TDC attribués")}).catch(()=>{console.log("role non attribué")});
