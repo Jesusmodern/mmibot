@@ -90,6 +90,16 @@ Client.on("message", message => {
     if(message.content == prefix + "exam"){
         message.channel.send("Planning des exam", {files: ["./Images/exam.png"]});
     }
+//espagnol
+    if(message.content == prefix + "esp_TDA"){
+        message.channel.send("***Mercredi 10 février*** \n8h30-10h : Débutant \n10h-11h30 : Expérimenté\n\n***Jeudi 18 février*** \n13h-14h30 : Expérimenté \n14h30-16h : Débutant\n\n***Jeudi 11 Mars*** \n8h30-10h : Débutant \n10h-11h30 : Expérimenté\n\n***Jeudi 01 avril*** \n8h30-10h : Expérimenté \n10h-11h30 : Débutant\n\n");
+    }
+    if(message.content == prefix + "esp_TDB"){
+        message.channel.send("***Jeudi 11 février*** \n8h30-10h : Débutant \n10h-11h30 : Expérimenté\n\n***Jeudi 18 février*** \n8h30-10h : Expérimenté \n10h-11h30 : Débutant\n\n***Mercredi 17 Mars*** \n13h-14h30 : Débutant \n14h30-16h : Expérimenté\n\n***Jeudi 25 mars*** \n8h30-10h : Expérimenté \n10h-11h30 : Débutant\n\n");
+    }
+    /*if(message.content == prefix + "esp_TDC"){
+        message.channel.send("***Mercredi 04 février*** \n8h30-10h : Expérimenté \n10h-11h30 : Débutant");
+    }*/
 
     if(message.content == prefix + "ping"){
         message.channel.send("pong");
