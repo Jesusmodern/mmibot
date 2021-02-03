@@ -86,6 +86,10 @@ Client.on("message", message => {
     if(message.content == prefix + "help"){
         message.channel.send("Liste des commandes", {files: ["./Images/cmd.png"]});
     }
+//exam
+    if(message.content == prefix + "edt_tp6"){
+        message.channel.send("Planning des exam", {files: ["./Images/exam.png"]});
+    }
 
     if(message.content == prefix + "ping"){
         message.channel.send("pong");
