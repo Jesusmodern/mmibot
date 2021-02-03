@@ -87,7 +87,7 @@ Client.on("message", message => {
         message.channel.send("Liste des commandes", {files: ["./Images/cmd.png"]});
     }
 //exam
-    if(message.content == prefix + "edt_tp6"){
+    if(message.content == prefix + "exam"){
         message.channel.send("Planning des exam", {files: ["./Images/exam.png"]});
     }
 
