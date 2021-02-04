@@ -102,7 +102,7 @@ Client.on("message", message => {
     }*/
 //abscence
     if(message.content == prefix + "abs"){
-        message.channel.send("Exemple d'un mail d'abscence \n\n**Destinataires** : Florian Joetzer, Rémi Boutteau et le prof concerné \n**Sujet** : -ABS-MMI1-2021-CODE_MATIÈRE-MATIÈRE-NOM \n**Contenu** \n```html Bonjour, Veuillez m'excuser pour mon abscence du *date_de_l'abscence*. Vous trouverez ci-joint un justificatif.``` \n**Justificatif en pièce jointe**");
+        message.channel.send("Exemple d'un mail d'abscence \n\n**Destinataires** : Florian Joetzer, Rémi Boutteau et le prof concerné \n**Sujet** : -ABS-MMI1-2021-CODE_MATIÈRE-MATIÈRE-NOM \n**Contenu** \n``` Bonjour, Veuillez m'excuser pour mon abscence du *date_de_l'abscence*. Vous trouverez ci-joint un justificatif.``` \n**Justificatif en pièce jointe**");
     }
 //mails des profs
     if(message.content == prefix + "mail"){
