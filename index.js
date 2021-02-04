@@ -109,7 +109,7 @@ Client.on("message", message => {
         message.channel.send("***Mails des profs*** \n\nAnita **SALAS** \n*anita.salas@univ-rouen.fr*\n\nAurora **LECUYER** \n*aurora.lecuyer@univ-rouen.fr*\n\nChristophe **PIQUE** \n*christophe.pique@univ-rouen.fr*\n\nDavid **CAMPSERVEUX** \n*david.campserveux@univ-rouen.fr*\n\nFlorian **JOETZJER** \n*florian.joetzjer@univ-rouen.fr*\n\nFranck **BEHARELLE** \n*franck.beharelle@univ-rouen.fr*\n\nFrédéric **CARPENTIER** \n*frederic.carpentier1@univ-rouen.fr*\n\nGeoffrey **ZIGANTE** \n*geoffrey.zigante1@univ-rouen.fr*\n\nJean Loup **GARULO** \n*jeanloup.garulo@univ-rouen.fr*\n\nJean-Pierre **LAFITTE** \n*jean-pierre.lafitte@univ-rouen.fr*\n\nKaterine **ROMEO** \n*katerine.romeo@univ-rouen.fr*\n\nNoemie **MARIE** \n*noemie.marie2@univ-rouen.fr*\n\nRémi **BOUTTEAU** \n*remi.boutteau@univ-rouen.fr*\n\nSylvain **KERJEAN** \n*sylvain.kerjean@univ-rouen.fr*");
     }
 //medecine preventive
-    if(message.content == prefix + "med"){
+    if(message.content == prefix + "mdc"){
         message.channel.send("**Infirmiers** : Mr Maison (*jean-paul.maison@univ-rouen.fr*) et Mme Lemerle (*christine.lemerle@univ-rouen.fr*) \n**Médecin** : Mme Gargala (*catherine.gargala@univ-rouen.fr*) \n**Sophrologue** : Mme Letourneur (*06 89 42 57 44* contact par SMS) \n**Psycologue** : Mme Briere (*barbara.briere@univ-rouen.fr*) \n**Assistante Sociale** : Mme Lemoine (*pauline.lemoine@univ-rouen.fr* / *06 70 74 99 43*)");
     }
 //invite
