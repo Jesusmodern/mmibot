@@ -122,11 +122,7 @@ Client.on("message", message => {
         var embed = new Discord.MessageEmbed()
         .setColor("#602F98")
         .setTitle("Cahier d'appel du TP1")
-        //.setAuthor("Bot MMI")
-        .setDescription("le message ici")
-        .addField("Responsable" , "contenu du champs", false)//non alligne
-        .addField("Suppléant", "contenu", true)//aligne
-        .addField("\u200B", "\u200B",false)//champs vide 
+        .setDescription("Semaine X : Respnsable/Suppléant \n Semaine 5 : ")
         .setTimestamp()
         .setFooter("texte fin")
 
