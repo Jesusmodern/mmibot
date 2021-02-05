@@ -118,7 +118,7 @@ Client.on("message", message => {
         var embed = new Discord.MessageEmbed()
         .setColor("#602F98")
         .setTitle("Exemple d'un mail d'abscence")
-        .setDescription("**Destinataires** : Florian Joetzer, Rémi Boutteau et le prof concerné \n**Sujet** : -ABS-MMI1-2021-CODE_MATIÈRE-MATIÈRE-NOM \n**Contenu** \n```Bonjour, Veuillez m'excuser pour mon abscence du *date_de_l'abscence*. Vous trouverez ci-joint un justificatif.``` \n**Justificatif en pièce jointe**")
+        .setDescription("***Destinataires*** : Florian Joetzer, Rémi Boutteau et le prof concerné \n***Sujet*** : -ABS-MMI1-2021-CODE_MATIÈRE-MATIÈRE-NOM \n***Contenu*** \n```Bonjour, Veuillez m'excuser pour mon abscence du *date_de_l'abscence*. Vous trouverez ci-joint un justificatif.``` \n***Justificatif en pièce jointe***")
         .setTimestamp()
     
     message.channel.send(embed);
@@ -138,7 +138,7 @@ Client.on("message", message => {
         var embed = new Discord.MessageEmbed()
         .setColor("#602F98")
         .setTitle("Médecine préventive")
-        .setDescription("**Infirmiers** : Mr Maison (*jean-paul.maison@univ-rouen.fr*) et Mme Lemerle (*christine.lemerle@univ-rouen.fr*) \n**Médecin** : Mme Gargala (*catherine.gargala@univ-rouen.fr*) \n**Sophrologue** : Mme Letourneur (*06 89 42 57 44* contact par SMS) \n**Psycologue** : Mme Briere (*barbara.briere@univ-rouen.fr*) \n**Assistante Sociale** : Mme Lemoine (*pauline.lemoine@univ-rouen.fr* / *06 70 74 99 43*)")
+        .setDescription("***Infirmiers*** : Mr Maison (*jean-paul.maison@univ-rouen.fr*) et Mme Lemerle (*christine.lemerle@univ-rouen.fr*) \n***Médecin*** : Mme Gargala (*catherine.gargala@univ-rouen.fr*) \n***Sophrologue*** : Mme Letourneur (*06 89 42 57 44* contact par SMS) \n***Psycologue*** : Mme Briere (*barbara.briere@univ-rouen.fr*) \n***Assistante Sociale*** : Mme Lemoine (*pauline.lemoine@univ-rouen.fr* / *06 70 74 99 43*)")
         .setTimestamp()
     
     message.channel.send(embed);
