@@ -3,6 +3,7 @@ const Discord = require("discord.js");
 const Client = new Discord.Client;
 
 const prefix = "/";
+
 Client.on("ready",() => {
     console.log("bot on");
 });
@@ -102,7 +103,7 @@ Client.on("message", message => {
     }*/
 //abscence
     if(message.content == prefix + "abs"){
-        message.channel.send("Exemple d'un mail d'abscence \n\n**Destinataires** : Florian Joetzer, Rémi Boutteau et le prof concerné \n**Sujet** : -ABS-MMI1-2021-CODE_MATIÈRE-MATIÈRE-NOM \n**Contenu** \n``` Bonjour, Veuillez m'excuser pour mon abscence du *date_de_l'abscence*. Vous trouverez ci-joint un justificatif.``` \n**Justificatif en pièce jointe**");
+        message.channel.send("Exemple d'un mail d'abscence \n\n**Destinataires** : Florian Joetzer, Rémi Boutteau et le prof concerné \n**Sujet** : -ABS-MMI1-2021-CODE_MATIÈRE-MATIÈRE-NOM \n**Contenu** \n```Bonjour, Veuillez m'excuser pour mon abscence du *date_de_l'abscence*. Vous trouverez ci-joint un justificatif.``` \n**Justificatif en pièce jointe**");
     }
 //mails des profs
     if(message.content == prefix + "mail"){
@@ -116,6 +117,22 @@ Client.on("message", message => {
     if(message.content == prefix + "invite"){
         message.channel.send("https://discord.gg/tCv4pvkPvR");
     }
+//cahier d'appel
+    if(message.content == prefix + "apl_tp1"){
+        var embed = new Discord.MessageEmbed()
+        .setColor("#602F98")
+        .setTitle("Cahier d'appel du TP1")
+        .setAuthor("Bot MMI")
+        //.setDescription("le message ici")
+        .addField("Responsable" , "contenu du champs", false)//non alligne
+        .addField("Suppléant", "contenu", true)//aligne
+        .addField("\u200B", "\u200B",false)//champs vide 
+        .setTimestamp()
+        .setFooter("texte fin")
+
+    message.channel.send(embed);
+    }
+    
 //ping
     if(message.content == prefix + "ping"){
         message.channel.send("pong");
