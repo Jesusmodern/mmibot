@@ -188,7 +188,7 @@ Client.on("message", message => {
         var embed = new Discord.MessageEmbed()
         .setColor("#602F98")
         .setTitle("Cahier d'appel du TP5")
-        .setDescription("***Semaine 5 : LEMPEREUR Baptiste*** \nSemaine 6 : LIEURY Bérengère \nSemaine 7 : LIGER Pierre \nSemaine 10 : LORDET Simon \nSemaine 11 : LYSCENCZUK Léa \nSemaine 12 : MABIRE Raphaël \nSemaine 13 : MALLET Paul \nSemaine 14 : MARTIN Clara \nSemaine 15 : MESSIER Jade \nSemaine 16 : MICHEL Amandine \nSemaine 19 :MOUCHEL GROSDOS Baptiste \nSemaine 20 : MOULIN Mélina \nSemaine 21 : LEMPEREUR Baptiste \nSemaine 22 : LIEURY Bérengère \nSemaine 23 : LIGER Pierre \nSemaine 24 : LORDET Simon \nSemaine 26 : LYSCENCZUK Léa \nSemaine 27 : MABIRE Raphaël ")
+        .setDescription("***Semaine 5 : LEMPEREUR Baptiste*** \nSemaine 6 : LIEURY Bérengère \nSemaine 7 : LIGER Pierre \nSemaine 10 : LORDET Simon \nSemaine 11 : PETIT Mattéo \nSemaine 12 : MABIRE Raphaël \nSemaine 13 : MALLET Paul \nSemaine 14 : MARTIN Clara \nSemaine 15 : MESSIER Jade \nSemaine 16 : MICHEL Amandine \nSemaine 19 :MOUCHEL GROSDOS Baptiste \nSemaine 20 : MOULIN Mélina \nSemaine 21 : LEMPEREUR Baptiste \nSemaine 22 : LIEURY Bérengère \nSemaine 23 : LIGER Pierre \nSemaine 24 : LORDET Simon \nSemaine 26 : PETIT Mattéo \nSemaine 27 : MABIRE Raphaël ")
         .setTimestamp()
 
     message.channel.send(embed);
@@ -197,7 +197,7 @@ Client.on("message", message => {
         var embed = new Discord.MessageEmbed()
         .setColor("#602F98")
         .setTitle("Cahier d'appel du TP6")
-        .setDescription("***Semaine 5 : ARTAUD Raphaëlle*** \nSemaine 6 : NOURRY Matthias \nSemaine 7 : PANNIER Sacha \nSemaine 10 : PETIT Mattéo \nSemaine 11 : ROBERT Tom \nSemaine 12 : RONGEAT Mathis \nSemaine 13 : ROUSSELLE Ylan \nSemaine 14 : SAUSSAYE Clément \nSemaine 15 : SUZUKI Ange \nSemaine 16 : VAILLANT Paul \nSemaine 19 : VAUCLIN Theo \nSemaine 20 : VERGAUWE Logan \nSemaine 21 : VIGOR Cassandra \nSemaine 22 : ARTAUD Raphaëlle \nSemaine 23 : NOURRY Matthias \nSemaine 24 : PANNIER Sacha \nSemaine 26 : PETIT Mattéo \nSemaine 27 : ROBERT Tom ")
+        .setDescription("***Semaine 5 : ARTAUD Raphaëlle*** \nSemaine 6 : NOURRY Matthias \nSemaine 7 : PANNIER Sacha \nSemaine 10 : LYSCENZUK Léa \nSemaine 11 : ROBERT Tom \nSemaine 12 : RONGEAT Mathis \nSemaine 13 : ROUSSELLE Ylan \nSemaine 14 : SAUSSAYE Clément \nSemaine 15 : SUZUKI Ange \nSemaine 16 : VAILLANT Paul \nSemaine 19 : VAUCLIN Theo \nSemaine 20 : VERGAUWE Logan \nSemaine 21 : VIGOR Cassandra \nSemaine 22 : ARTAUD Raphaëlle \nSemaine 23 : NOURRY Matthias \nSemaine 24 : PANNIER Sacha \nSemaine 26 : LYSCENZUK Léa \nSemaine 27 : ROBERT Tom ")
         .setTimestamp()
 
     message.channel.send(embed);
