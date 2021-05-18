@@ -207,6 +207,7 @@ Client.on("message", message => {
         .setColor("#602F98")
         .setTitle("Composition du BDE")
         .setDescription("***Président:*** Logan.V \n***Vice président:*** Mathis.R \n***Secrétaire:*** Laurie.D \n***Trésorier:*** Mélina.M \n***Pôle Partenariat:*** Charlotte.V, Noah.A\n***Pôle Event:*** Lise.B, Simon.L \n***Pôle Communication:*** Clément.S, Théo.DS \n***Pôle Audiovisuel:*** Mathilde.C, Julien.C \n***Membre actifs:*** Amandine.M,Louise.LM, Matthias.N\n\nN'hésitez pas à nous contacter via notre Instagrame **@bde_labete** ou sur Discord avec un **@BDE**")
+        .setThumbnail('attachment:/Images/bde.jpg')
         .setTimestamp()
 
     message.channel.send(embed);
