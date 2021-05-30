@@ -152,7 +152,7 @@ Client.on("message", message => {
         var embed = new Discord.MessageEmbed()
         .setColor("#602F98")
         .setTitle("Cahier d'appel du TP1")
-        .setDescription("Semaine 5 : ABDALLAH Anis \nSemaine 6 : ABRAHAM Noah \nSemaine 7 : AMGOUD Lucas \nSemaine 10 : BENOIST Nicolas \nSemaine 11 : BILLAUX Sarah \nSemaine 12 : BLIN Erwan \nSemaine 13 : BONDU Lise \nSemaine 14 : BOUGET Alexandre \nSemaine 17 : BREMAUD Mathieu \nSemaine 18 : CAILLOT Antoine \nemaine 19 :  CAVAREC Léo \nSemaine 20 : CHANTREUX Raphaël \n***Semaine 21 : CHARLET Tom*** \nSemaine 22 : ABDALLAH Anis \nSemaine 23 : ABRAHAM Noah \nSemaine 24 : AMGOUD Lucas \nSemaine 26 : BENOIST Nicolas \nSemaine 27 : BILLAUX Sarah ")
+        .setDescription("Semaine 5 : ABDALLAH Anis \nSemaine 6 : ABRAHAM Noah \nSemaine 7 : AMGOUD Lucas \nSemaine 10 : BENOIST Nicolas \nSemaine 11 : BILLAUX Sarah \nSemaine 12 : BLIN Erwan \nSemaine 13 : BONDU Lise \nSemaine 14 : BOUGET Alexandre \nSemaine 17 : BREMAUD Mathieu \nSemaine 18 : CAILLOT Antoine \nemaine 19 :  CAVAREC Léo \nSemaine 20 : CHANTREUX Raphaël \nemaine 21 : CHARLET Tom \n***Semaine 22 : ABDALLAH Anis*** \nSemaine 23 : ABRAHAM Noah \nSemaine 24 : AMGOUD Lucas \nSemaine 26 : BENOIST Nicolas \nSemaine 27 : BILLAUX Sarah ")
         .setTimestamp()
 
     message.channel.send(embed);
@@ -161,7 +161,7 @@ Client.on("message", message => {
         var embed = new Discord.MessageEmbed()
         .setColor("#602F98")
         .setTitle("Cahier d'appel du TP2")
-        .setDescription("Semaine 5 :  CHARRADA Sofiane \nSemaine 6 : CHARRON Antoine \nSemaine 7 : CHEVALIER Mathilde \nSemaine 10 : CORDIER Julien \nSemaine 11 : COURTES Emma \nSemaine 12 : DAMIENS Alexandre \nSemaine 13 : DAVID Killian \nSemaine 14 : DEBUT Loïc \nSemaine 17 : DEGUFFROY Théo \nSemaine 18 : DESCHAMPS Chloé \nSemaine 19 : DOS SANTOS Théo \nSemaine 20 : DOUCET Anaïs \n***Semaine 21 : DUBUC Laurie*** \nSemaine 22 : CHARRADA Sofiane \nSemaine 23 :  CHARRON Antoine \nSemaine 24 : CHEVALIER Mathilde \nSemaine 26 : CORDIER Julien \nSemaine 27 :  COURTES Emma ")
+        .setDescription("Semaine 5 :  CHARRADA Sofiane \nSemaine 6 : CHARRON Antoine \nSemaine 7 : CHEVALIER Mathilde \nSemaine 10 : CORDIER Julien \nSemaine 11 : COURTES Emma \nSemaine 12 : DAMIENS Alexandre \nSemaine 13 : DAVID Killian \nSemaine 14 : DEBUT Loïc \nSemaine 17 : DEGUFFROY Théo \nSemaine 18 : DESCHAMPS Chloé \nSemaine 19 : DOS SANTOS Théo \nSemaine 20 : DOUCET Anaïs \nSemaine 21 : DUBUC Laurie \n***Semaine 22 : CHARRADA Sofiane*** \nSemaine 23 :  CHARRON Antoine \nSemaine 24 : CHEVALIER Mathilde \nSemaine 26 : CORDIER Julien \nSemaine 27 :  COURTES Emma ")
         .setTimestamp()
 
     message.channel.send(embed);
@@ -170,7 +170,7 @@ Client.on("message", message => {
         var embed = new Discord.MessageEmbed()
         .setColor("#602F98")
         .setTitle("Cahier d'appel du TP3")
-        .setDescription("Semaine 5 : DUPREZ Virgile \nSemaine 6 : FAUCON Matthias \nSemaine 7 : FLAMME Lisa \nSemaine 10 : FLEURET Alex \nSemaine 11 : GABORIT Clarence \nSemaine 12 : GAILLARD Léo \nSemaine 13 : GERARD Romain \nSemaine 14 : GIBEAUX Hugo  \nSemaine 17 : GODARD Jean \nSemaine 18 : GRATIGNY Samson \nSemaine 19 : GREBOVAL Virgil \nSemaine 20 : GRIMAL Florine \n***Semaine 21 : GUEGAN Erwann*** \nSemaine 22 : DUPREZ Virgile \nSemaine 23 : FAUCON Matthias \nSemaine 24 : FLAMME Lisa \nSemaine 26 : FLEURET Alex \nSemaine 27 : GABORIT Clarence ")
+        .setDescription("Semaine 5 : DUPREZ Virgile \nSemaine 6 : FAUCON Matthias \nSemaine 7 : FLAMME Lisa \nSemaine 10 : FLEURET Alex \nSemaine 11 : GABORIT Clarence \nSemaine 12 : GAILLARD Léo \nSemaine 13 : GERARD Romain \nSemaine 14 : GIBEAUX Hugo  \nSemaine 17 : GODARD Jean \nSemaine 18 : GRATIGNY Samson \nSemaine 19 : GREBOVAL Virgil \nSemaine 20 : GRIMAL Florine \nSemaine 21 : GUEGAN Erwann \n***Semaine 22 : DUPREZ Virgile*** \nSemaine 23 : FAUCON Matthias \nSemaine 24 : FLAMME Lisa \nSemaine 26 : FLEURET Alex \nSemaine 27 : GABORIT Clarence ")
         .setTimestamp()
 
     message.channel.send(embed);
@@ -179,7 +179,7 @@ Client.on("message", message => {
         var embed = new Discord.MessageEmbed()
         .setColor("#602F98")
         .setTitle("Cahier d'appel du TP4")
-        .setDescription("Semaine 5 : GUEOUAL Camil \nSemaine 6 : HERNANDEZ Alexis \nSemaine 7 : HERSANT Nolwenn \nSemaine 10 : JUHE Florian \nSemaine 11 : JULIEN Etienne \nSemaine 12 : KALA Axel \nSemaine 13 : LAHAYE Antoine \nSemaine 14 : LE MAP Louise  \nSemaine 17 : LEFEBVRE Angèle \nSemaine 18 : LEGER Luke \nSemaine 19 : LEJEUNE Alexis \nSemaine 20 : LEMONNIER Eythann \n***Semaine 21 : MILITE Valentin*** \nSemaine 22 : GUEOUAL Camil \nSemaine 23 : HERNANDEZ Alexis \nSemaine 24 : HERSANT Nolwenn \nSemaine 26 : JUHE Florian \nSemaine 27 : JULIEN Etienne ")
+        .setDescription("Semaine 5 : GUEOUAL Camil \nSemaine 6 : HERNANDEZ Alexis \nSemaine 7 : HERSANT Nolwenn \nSemaine 10 : JUHE Florian \nSemaine 11 : JULIEN Etienne \nSemaine 12 : KALA Axel \nSemaine 13 : LAHAYE Antoine \nSemaine 14 : LE MAP Louise  \nSemaine 17 : LEFEBVRE Angèle \nSemaine 18 : LEGER Luke \nSemaine 19 : LEJEUNE Alexis \nSemaine 20 : LEMONNIER Eythann \nSemaine 21 : MILITE Valentin \n***Semaine 22 : GUEOUAL Camil*** \nSemaine 23 : HERNANDEZ Alexis \nSemaine 24 : HERSANT Nolwenn \nSemaine 26 : JUHE Florian \nSemaine 27 : JULIEN Etienne ")
         .setTimestamp()
 
     message.channel.send(embed);
@@ -188,7 +188,7 @@ Client.on("message", message => {
         var embed = new Discord.MessageEmbed()
         .setColor("#602F98")
         .setTitle("Cahier d'appel du TP5")
-        .setDescription("Semaine 5 : LEMPEREUR Baptiste \nSemaine 6 : LIEURY Bérengère \nSemaine 7 : LIGER Pierre \nSemaine 10 : LORDET Simon \nSemaine 11 : PETIT Mattéo \nSemaine 12 : MABIRE Raphaël \nSemaine 13 : MALLET Paul \nSemaine 14 : MARTIN Clara \nSemaine 17 : MESSIER Jade \nSemaine 18 : MICHEL Amandine \nSemaine 19 :MOUCHEL GROSDOS Baptiste \nSemaine 20 : MOULIN Mélina \n***Semaine 21 : LEMPEREUR Baptiste*** \nSemaine 22 : LIEURY Bérengère \nSemaine 23 : LIGER Pierre \nSemaine 24 : LORDET Simon \nSemaine 26 : PETIT Mattéo \nSemaine 27 : MABIRE Raphaël ")
+        .setDescription("Semaine 5 : LEMPEREUR Baptiste \nSemaine 6 : LIEURY Bérengère \nSemaine 7 : LIGER Pierre \nSemaine 10 : LORDET Simon \nSemaine 11 : PETIT Mattéo \nSemaine 12 : MABIRE Raphaël \nSemaine 13 : MALLET Paul \nSemaine 14 : MARTIN Clara \nSemaine 17 : MESSIER Jade \nSemaine 18 : MICHEL Amandine \nSemaine 19 :MOUCHEL GROSDOS Baptiste \nSemaine 20 : MOULIN Mélina \nSemaine 21 : LEMPEREUR Baptiste \n***Semaine 22 : LIEURY Bérengère*** \nSemaine 23 : LIGER Pierre \nSemaine 24 : LORDET Simon \nSemaine 26 : PETIT Mattéo \nSemaine 27 : MABIRE Raphaël ")
         .setTimestamp()
 
     message.channel.send(embed);
@@ -197,7 +197,7 @@ Client.on("message", message => {
         var embed = new Discord.MessageEmbed()
         .setColor("#602F98")
         .setTitle("Cahier d'appel du TP6")
-        .setDescription("Semaine 5 : ARTAUD Raphaëlle \nSemaine 6 : NOURRY Matthias \nSemaine 7 : PANNIER Sacha \nSemaine 10 : LYSCENZUK Léa \nSemaine 11 : ROBERT Tom \nSemaine 12 : RONGEAT Mathis \nSemaine 13 : ROUSSELLE Ylan \nSemaine 14 : SAUSSAYE Clément \nSemaine 17 : SUZUKI Ange \nSemaine 18 : VAILLANT Paul \nSemaine 19 : VAUCLIN Theo \nSemaine 20 : VERGAUWE Logan \n***Semaine 21 : VIGOR Cassandra*** \nSemaine 22 : ARTAUD Raphaëlle \nSemaine 23 : NOURRY Matthias \nSemaine 24 : PANNIER Sacha \nSemaine 26 : LYSCENZUK Léa \nSemaine 27 : ROBERT Tom ")
+        .setDescription("Semaine 5 : ARTAUD Raphaëlle \nSemaine 6 : NOURRY Matthias \nSemaine 7 : PANNIER Sacha \nSemaine 10 : LYSCENZUK Léa \nSemaine 11 : ROBERT Tom \nSemaine 12 : RONGEAT Mathis \nSemaine 13 : ROUSSELLE Ylan \nSemaine 14 : SAUSSAYE Clément \nSemaine 17 : SUZUKI Ange \nSemaine 18 : VAILLANT Paul \nSemaine 19 : VAUCLIN Theo \nSemaine 20 : VERGAUWE Logan \nSemaine 21 : VIGOR Cassandra \n***Semaine 22 : ARTAUD Raphaëlle*** \nSemaine 23 : NOURRY Matthias \nSemaine 24 : PANNIER Sacha \nSemaine 26 : LYSCENZUK Léa \nSemaine 27 : ROBERT Tom ")
         .setTimestamp()
 
     message.channel.send(embed);
