@@ -63,34 +63,37 @@ Client.on("message", message => {
         member.roles.add("799248530346606642").then(mbr => {console.log("role TP6 attribués")}).catch(()=>{console.log("role non attribué")});
     }*/
 //renvoie des edt
-    if(message.content == prefix + "edt"){
+    if(message.content == prefix + "edt_td1"){
         message.channel.send("Emploi du temps des MMI 1", {files: ["./Images/edt0.png"]});
     }
-    if(message.content == prefix + "edt_tp1"){
-        message.channel.send("Emploi du temps du TP1", {files: ["./Images/edt1.png"]});
+    if(message.content == prefix + "edt_td2"){
+        message.channel.send("Emploi du temps des MMI 2", {files: ["./Images/edt00.png"]});
     }
-    if(message.content == prefix + "edt_tp2"){
-        message.channel.send("Emploi du temps du TP2", {files: ["./Images/edt2.png"]});
+    if(message.content == prefix + "edt_td1a"){
+        message.channel.send("Emploi du temps du TD1 A", {files: ["./Images/edt1.png"]});
     }
-    if(message.content == prefix + "edt_tp3"){
-        message.channel.send("Emploi du temps du TP3", {files: ["./Images/edt3.png"]});
+    if(message.content == prefix + "edt_td1b"){
+        message.channel.send("Emploi du temps du TD1 B", {files: ["./Images/edt2.png"]});
     }
-    if(message.content == prefix + "edt_tp4"){
-        message.channel.send("Emploi du temps du TP4", {files: ["./Images/edt4.png"]});
+    if(message.content == prefix + "edt_td1c"){
+        message.channel.send("Emploi du temps du TD1 C", {files: ["./Images/edt3.png"]});
     }
-    if(message.content == prefix + "edt_tp5"){
-        message.channel.send("Emploi du temps du TP5", {files: ["./Images/edt5.png"]});
+    if(message.content == prefix + "edt_td2a"){
+        message.channel.send("Emploi du temps du TD2 A", {files: ["./Images/edt4.png"]});
     }
-    if(message.content == prefix + "edt_tp6"){
-        message.channel.send("Emploi du temps du TP6", {files: ["./Images/edt6.png"]});
+    if(message.content == prefix + "edt_td2b"){
+        message.channel.send("Emploi du temps du TD2 B", {files: ["./Images/edt5.png"]});
+    }
+    if(message.content == prefix + "edt_td2c"){
+        message.channel.send("Emploi du temps du TD2 C", {files: ["./Images/edt6.png"]});
     }
 //help
     if(message.content == prefix + "help"){
         message.channel.send("Liste des commandes", {files: ["./Images/cmd.png"]});
     }
 //exam
-    if(message.content == prefix + "exam"){
-        message.channel.send("Planning des exam", {files: ["./Images/exam.png"]});
+    if(message.content == prefix + "exam2"){
+        message.channel.send("Planning des exam des 2eme annees", {files: ["./Images/exam.png"]});
     }
 //espagnol
     if(message.content == prefix + "esp_TDA"){
@@ -145,66 +148,126 @@ Client.on("message", message => {
     message.channel.send(embed);
     }
 //invite
-    if(message.content == prefix + "invite"){
+    if(message.content == prefix + "invite_iut"){
         message.channel.send("https://discord.gg/PxhpMSbFNT");
     }
 //cahier d'appel
-    if(message.content == prefix + "apl_tp1"){
+    if(message.content == prefix + "apl_td1a"){
         var embed = new Discord.MessageEmbed()
         .setColor("#602F98")
-        .setTitle("Cahier d'appel du TP1")
-        .setDescription("Non défini")
+        .setTitle("Cahier d'appel du TDA")
+        .addFields(
+            {
+                name:'TP1',
+                value:"Non défini",
+                inline: true,
+            },
+            {
+                name:'TP2',
+                value:"Non défini",
+                inline: true,
+            },
+        )
         .setTimestamp()
 
     message.channel.send(embed);
     }
-    if(message.content == prefix + "apl_tp2"){
+    if(message.content == prefix + "apl_td1b"){
         var embed = new Discord.MessageEmbed()
         .setColor("#602F98")
-        .setTitle("Cahier d'appel du TP2")
-        .setDescription("Non défini")
+        .setTitle("Cahier d'appel du TDB")
+        .addFields(
+            {
+                name:'TP3',
+                value:"Non défini",
+                inline: true,
+            },
+            {
+                name:'TP4',
+                value:"Non défini",
+                inline: true,
+            },
+        )
         .setTimestamp()
 
     message.channel.send(embed);
     }
-    if(message.content == prefix + "apl_tp3"){
+    if(message.content == prefix + "apl_td1c"){
         var embed = new Discord.MessageEmbed()
         .setColor("#602F98")
-        .setTitle("Cahier d'appel du TP3")
-        .setDescription("Non défini")
+        .setTitle("Cahier d'appel du TDC")
+        .addFields(
+            {
+                name:'TP5',
+                value:"Non défini",
+                inline: true,
+            },
+            {
+                name:'TP6',
+                value:"Non défini",
+                inline: true,
+            },
+        )
         .setTimestamp()
 
     message.channel.send(embed);
     }
-    if(message.content == prefix + "apl_tp4"){
+    if(message.content == prefix + "apl_td2a"){
         var embed = new Discord.MessageEmbed()
         .setColor("#602F98")
-        .setTitle("Cahier d'appel du TP4")
-        .setDescription("Non défini")
+        .setTitle("Cahier d'appel du TDA")
+        .addFields(
+            {
+                name:'TP1',
+                value:"Non défini",
+                inline: true,
+            },
+            {
+                name:'TP2',
+                value:"Non défini",
+                inline: true,
+            },
+        )
         .setTimestamp()
 
     message.channel.send(embed);
     }
-    if(message.content == prefix + "apl_tp5"){
+    if(message.content == prefix + "apl_td2b"){
         var embed = new Discord.MessageEmbed()
         .setColor("#602F98")
-        .setTitle("Cahier d'appel du TP5")
-        .setDescription("Non défini")
+        .setTitle("Cahier d'appel du TDB")
+        .addFields(
+            {
+                name:'TP3',
+                value:"Non défini",
+                inline: true,
+            },
+            {
+                name:'TP4',
+                value:"Non défini",
+                inline: true,
+            },
+        )
         .setTimestamp()
 
     message.channel.send(embed);
     }
-    /*
-    if(message.content == prefix + "apl_tp6"){
+    if(message.content == prefix + "apl_td2c"){
         var embed = new Discord.MessageEmbed()
         .setColor("#602F98")
-        .setTitle("Cahier d'appel du TP6")
-        .setDescription("Non défini")
+        .setTitle("Cahier d'appel du TDC")
+        .addFields(
+            {
+                name:'TP5',
+                value:"Non défini",
+                inline: true,
+            },
+            
+        )
         .setTimestamp()
 
     message.channel.send(embed);
     }
-    */
     if(message.content == prefix + "bde"){
         const {MessageAttachment} = require("discord.js");
         const logoImg = new MessageAttachment('./Images/bde.jpg');
