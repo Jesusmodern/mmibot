@@ -149,7 +149,7 @@ Client.on("message", message => {
     }
 //invite
     if(message.content == prefix + "invite_iut"){
-        message.channel.send("https://discord.gg/PxhpMSbFNT");
+        message.channel.send("https://discord.gg/cdEZJ4j8Ak", {files: ["./Images/affqrcode.png"]});
     }
 //cahier d'appel
     if(message.content == prefix + "apl_td1a"){
