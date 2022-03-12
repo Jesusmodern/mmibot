@@ -122,7 +122,7 @@ Client.on("message", message => {
         var embed = new Discord.MessageEmbed()
         .setColor("#602F98")
         .setTitle("Exemple d'un mail d'abscence")
-        .setDescription("***Destinataires*** : Franck Beharelle, Sylvain Krerjean, Rémi Boutteau et le prof concerné \n***Sujet*** : -ABS-MMI1-2021-CODE_MATIÈRE-MATIÈRE-NOM \n***Contenu*** \n```Bonjour, Veuillez m'excuser pour mon abscence du *date_de_l'abscence*. Vous trouverez ci-joint un justificatif.``` \n***Justificatif en pièce jointe***")
+        .setDescription("***Destinataires*** : Franck Beharelle, Sylvain Kerjean, Rémi Boutteau et le prof concerné \n***Sujet*** : -ABS-MMI1-2022-CODE_MATIÈRE-MATIÈRE-NOM \n***Contenu*** \n```Bonjour, Veuillez m'excuser pour mon abscence du *date_de_l'abscence*. Vous trouverez ci-joint un justificatif.``` \n***Justificatif en pièce jointe***")
         .setTimestamp()
     
     message.channel.send(embed);
